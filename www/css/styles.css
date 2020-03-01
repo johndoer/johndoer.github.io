@@ -1,0 +1,127 @@
+nav{
+	border-bottom:none; 
+	background-color:#2F4550
+}
+
+nav a{
+	font-size:large;
+	font-weight:bold;
+	font-family: sans-serif;
+}
+
+nav span i{
+	cursor:pointer;
+	padding-top:0;
+	margin-left: 20px;
+}
+
+i {
+	cursor:pointer; 
+	padding:5px;
+}
+
+i.right {
+    float: right;
+    margin-left: 10px;
+}
+
+/*
+.nav-wrapper i:hover{
+	background-color:#4C5D66;
+}
+*/
+
+
+
+
+#background{
+	background-color:#0e0e0e; 
+	position:fixed; 
+	top:0%; 
+	left:0%; 
+	width:100%; 
+	height:100%; 
+	z-index:5; 
+	overflow:hidden; 
+	display:none; 
+	opacity:0; 
+	transition:opacity .25s 0s;
+}
+
+#mainContent{
+	height:0px; 
+	width:99%; 
+	text-align:center; 
+	margin-top:2px;	
+	
+	/*
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	*/	
+	
+	
+}
+
+#mainContent .box{
+	border:1px solid grey; 
+	height:60px; 
+	width:60px; 
+	display:inline-block; 
+	margin-left:2px; 
+	margin-top:1px;
+	
+	background-size:100% 100%;
+	cursor:pointer;
+	transition: transform 0.15s ease 0s;
+}
+
+#mainContent .box:hover{transform: scale3d(1.05, 1.05, 1.05);}
+
+.pic{
+	height:100%; 
+	width:100%; 
+	border:0px solid grey; 
+	position:absolute; 
+	top:0%;  
+	left:0%; 
+	background: center center / contain no-repeat;  /* centers img in div and sizes to fit - very nice */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;   
+	align-items: center; 
+	cursor:zoom-in; 
+	transform:scale(1,1); 
+	transition:left .45s cubic-bezier(0.42, 0.51, 0.58, 1), transform .2s ease-in-out; 
+}
+
+#login input, #register input, #login label, #register label{
+/*
+	font-size:1.35rem ;
+	line-height:1.6rem ;
+*/
+}
+
+
+#chooser{
+	visibility:hidden;
+}
+
+
+.progress {
+	width:70%;
+	margin:auto;
+	display:none;
+}
+
+
+
+.teal {
+    background-color: #0d7168 !important;
+}
+
+
+
