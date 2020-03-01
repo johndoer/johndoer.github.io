@@ -21,6 +21,7 @@ nav{
 	border-bottom: none; 
 	background-color: var(--navColor);
 	position: sticky;
+	height:56px;
 }
 
 nav span{
@@ -29,16 +30,16 @@ nav span{
 	
 	position:absolute; 
 	right:30px; 
-	line-height:64px; 
-	height:64px; 
+	line-height:56px; 
+	height:56px; 
 	bottom:0px;
 	width:64px;
 	text-align:center;
 }
 
 nav span i{
-	line-height:64px !important; 
-	height:64px  !important;
+	line-height:56px !important; 
+	height:56px  !important;
 	font-size: 2.2rem  !important;
 }
 /* end of nav */
@@ -46,10 +47,10 @@ nav span i{
 .cart {
 	background: rgba(125,125,125, .95); 
 	background: var(--navColor); 
-	min-width: 25rem; 
-	height:calc(100vh - 66px); 
+	min-width: 315px; 
+	height:calc(100vh - 58px); 
 	position:fixed; 
-	top:65px; 
+	top:57px; 
 	right:0px; 
 	z-index:2; 
 	transform: translateX(100%);
@@ -69,7 +70,7 @@ nav span i{
 /* end of cart */
 /* main */
 main {
-	height: calc(100vh - 64px);
+	height: calc(100vh - 56px);
 	padding-top: 20px;
 	overflow:hidden;
 	overflow-y:scroll;
@@ -112,3 +113,11 @@ footer > div{
   color:white;
 }
 /* end of footer */
+
+
+/* for screen sizes larger than mobile */
+@media screen and (min-width: 768px) {
+	
+	
+	
+}
